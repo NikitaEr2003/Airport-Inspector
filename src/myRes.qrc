@@ -2,6 +2,5 @@
     <qresource prefix="/">
         <file>images/picture.jpg</file>
         <file>images/plane.jpg</file>
-        <file>images/sky.jpg</file>
     </qresource>
 </RCC>

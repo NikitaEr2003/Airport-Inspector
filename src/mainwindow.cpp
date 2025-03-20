@@ -179,13 +179,11 @@ void MainWindow::on_pushButton_clear__clicked()
         {
          mod->clear();
         }
-
     }
 }
 
 void MainWindow::slot_refresh_connection()
 {
-
     msg->close();
     myConnect();
 }
@@ -280,6 +278,5 @@ void MainWindow::on_pushButton_workload__clicked()
     "GROUP BY \"Day\"",
     QuerySelect::MONTHS_SELECT_));
     workloadDialog->exec();
-
 }
 

@@ -258,9 +258,7 @@ void workload::slot_month_is_changed(const QString & str)
 
 void workload::setIndexMonths()
 {
-
-listMonths->setCurrentIndex(0);
-
+    listMonths->setCurrentIndex(0);
 }
 
 workload::~workload()
